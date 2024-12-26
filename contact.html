@@ -13,8 +13,53 @@
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
-    <body>
-        <h1>ติดต่อเรา</h1>
+    <body class="min-vh-100 d-flex flex-column"
+        style="font-family: 'Prompt', sans-serif;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm"
+            style="background-color: #82925D;">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <img src="https://shorturl.asia/zQeJk" width="80"
+                        height="80" alt="Logo" class="img-fluid">
+                    <span
+                        class="navbar-brand ms-3 fw-bolder fs-4 text-white mb-0">Chachoengsao</span>
+                </div>
+                <button class="navbar-toggler bg-light ms-auto" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center"
+                    id="navbarNav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100"
+                                href="home.html">หน้าแรก</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100"
+                                href="about.html">เกี่ยวกับเรา</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0 mx-2">
+                            <a class="btn btn-outline-light px-4 w-100"
+                                href="contact.html">ติดต่อ</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex justify-content-center">
+                        <div class="input-group" style="max-width: 500px;">
+                            <input class="form-control" type="search"
+                                placeholder="ค้นหา...">
+                            <button class="btn btn-outline-light" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     </body>
